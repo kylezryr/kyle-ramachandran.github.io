@@ -15,7 +15,24 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Kyle Ramachandran",
-  description: "UC Berkeley EECS student looking for software engineering and full-stack roles.",
+  description: "UC Berkeley EECS student specializing in full-stack engineering and AI applications. Portfolio of projects, experience, and skills.",
+  metadataBase: new URL("https://kyleramachandran.com"),
+  openGraph: {
+    title: "Kyle Ramachandran",
+    description: "UC Berkeley EECS student specializing in full-stack engineering and AI applications.",
+    url: "https://kyleramachandran.com",
+    siteName: "Kyle Ramachandran",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Kyle Ramachandran",
+    description: "UC Berkeley EECS student specializing in full-stack engineering and AI applications.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
