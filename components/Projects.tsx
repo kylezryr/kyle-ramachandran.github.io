@@ -66,7 +66,7 @@ export default function Projects() {
     <section id="projects">
       <div className="sticky top-14 z-10 bg-white/95 dark:bg-neutral-950/95 backdrop-blur-sm px-6">
         <div className="max-w-5xl mx-auto py-3">
-          <h2 className="text-sm font-mono text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">
+          <h2 className="text-sm font-mono text-blue-500 dark:text-blue-400 uppercase tracking-widest">
             04. Projects
           </h2>
         </div>
@@ -79,7 +79,7 @@ export default function Projects() {
         <div className="space-y-8">
           {projects.map((project, i) => (
             <FadeIn key={project.title} delay={i * 100}>
-              <div className="rounded-xl border border-neutral-200 dark:border-neutral-800 p-6 hover:border-neutral-300 dark:hover:border-neutral-700 transition-colors bg-white dark:bg-neutral-900/20">
+              <div className="rounded-xl border border-neutral-200 dark:border-neutral-800 p-6 bg-white dark:bg-neutral-900/20 hover:border-neutral-400 dark:hover:border-neutral-600 hover:shadow-lg dark:hover:shadow-neutral-950/50 hover:-translate-y-0.5 transition-all duration-200">
                 <div className="flex items-start justify-between gap-4 mb-3">
                   <div className="flex items-center gap-2">
                     <h4 className="font-bold text-neutral-900 dark:text-white text-lg">
@@ -118,7 +118,7 @@ export default function Projects() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs font-mono px-2 py-1 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-neutral-900 hover:scale-105 transition-all duration-150 cursor-default"
+                      className="text-xs font-mono px-2 py-1 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-blue-600 hover:text-white hover:border-blue-600 dark:hover:bg-blue-500 dark:hover:text-white hover:scale-105 transition-all duration-150 cursor-default"
                     >
                       {tag}
                     </span>

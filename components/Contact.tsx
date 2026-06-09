@@ -51,7 +51,7 @@ export default function Contact() {
     <section id="contact">
       <div className="sticky top-14 z-10 bg-white/95 dark:bg-neutral-950/95 backdrop-blur-sm px-6">
         <div className="max-w-5xl mx-auto py-3">
-          <h2 className="text-sm font-mono text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">
+          <h2 className="text-sm font-mono text-blue-500 dark:text-blue-400 uppercase tracking-widest">
             07. Contact
           </h2>
         </div>
@@ -67,7 +67,7 @@ export default function Contact() {
           </p>
           <a
             href="mailto:kylezheren@gmail.com"
-            className="inline-block px-6 py-3 rounded-md bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 font-medium text-sm hover:opacity-80 transition-opacity mb-10"
+            className="inline-block px-6 py-3 rounded-md bg-blue-600 dark:bg-blue-500 text-white font-medium text-sm hover:opacity-80 transition-opacity mb-10"
           >
             Say hello →
           </a>

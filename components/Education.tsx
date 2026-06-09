@@ -57,7 +57,7 @@ export default function Education() {
     <section id="education" className="bg-neutral-50 dark:bg-neutral-900/40">
       <div className="sticky top-14 z-10 bg-neutral-50/95 dark:bg-neutral-950/95 backdrop-blur-sm px-6">
         <div className="max-w-5xl mx-auto py-3">
-          <h2 className="text-sm font-mono text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">
+          <h2 className="text-sm font-mono text-blue-500 dark:text-blue-400 uppercase tracking-widest">
             02. Education
           </h2>
         </div>
@@ -67,7 +67,7 @@ export default function Education() {
           Where I&apos;ve studied
         </h3>
         <FadeIn>
-          <div className="rounded-xl border border-neutral-200 dark:border-neutral-800 overflow-hidden bg-white dark:bg-neutral-900/60">
+          <div className="rounded-xl border border-neutral-200 dark:border-neutral-800 overflow-hidden bg-white dark:bg-neutral-900/60 hover:border-neutral-300 dark:hover:border-neutral-600 hover:shadow-lg dark:hover:shadow-neutral-950/50 transition-all duration-200">
             {/* Main row */}
             <div className="p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-12">
               <div className="shrink-0">

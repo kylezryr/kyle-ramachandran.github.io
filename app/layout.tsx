@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Kyle Ramachandran",
-  description: "UC Berkeley EECS student and software engineer — full-stack and AI applications.",
+  description: "UC Berkeley EECS student looking for software engineering and full-stack roles.",
 };
 
 export default function RootLayout({

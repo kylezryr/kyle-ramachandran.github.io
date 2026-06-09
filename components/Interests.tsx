@@ -48,7 +48,7 @@ export default function Interests() {
     <section id="interests">
       <div className="sticky top-14 z-10 bg-white/95 dark:bg-neutral-950/95 backdrop-blur-sm px-6">
         <div className="max-w-5xl mx-auto py-3">
-          <h2 className="text-sm font-mono text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">
+          <h2 className="text-sm font-mono text-blue-500 dark:text-blue-400 uppercase tracking-widest">
             06. Beyond the code
           </h2>
         </div>
@@ -68,7 +68,7 @@ export default function Interests() {
             {interests.map((item) => (
               <div
                 key={item.label}
-                className="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 bg-neutral-50 dark:bg-neutral-900/40 hover:border-neutral-300 dark:hover:border-neutral-700 transition-colors"
+                className="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 bg-neutral-50 dark:bg-neutral-900/40 hover:border-blue-400 dark:hover:border-blue-500 hover:bg-blue-50 dark:hover:bg-blue-950/30 transition-colors"
               >
                 <span className="text-2xl mb-2 block">{item.emoji}</span>
                 <p className="font-semibold text-sm text-neutral-900 dark:text-white">

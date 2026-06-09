@@ -97,7 +97,7 @@ export default function Navbar() {
             </a>
           ))}
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"
-            className="px-3 py-1.5 rounded-md bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 text-xs font-medium hover:opacity-80 transition-opacity">
+            className="px-3 py-1.5 rounded-md bg-blue-600 dark:bg-blue-500 text-white text-xs font-medium hover:opacity-80 transition-opacity">
             Resume
           </a>
           <ThemeToggle />
