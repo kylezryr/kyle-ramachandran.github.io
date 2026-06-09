@@ -66,7 +66,7 @@ export default function Projects() {
     <section id="projects">
       <div className="sticky top-14 z-10 bg-white/95 dark:bg-neutral-950/95 backdrop-blur-sm px-6">
         <div className="max-w-5xl mx-auto py-3">
-          <h2 className="text-sm font-mono text-blue-500 dark:text-blue-400 uppercase tracking-widest">
+          <h2 className="text-sm font-mono text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">
             04. Projects
           </h2>
         </div>
@@ -118,7 +118,7 @@ export default function Projects() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs font-mono px-2 py-1 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-blue-600 hover:text-white hover:border-blue-600 dark:hover:bg-blue-500 dark:hover:text-white hover:scale-105 transition-all duration-150 cursor-default"
+                      className="text-xs font-mono px-2 py-1 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-neutral-900 hover:scale-105 transition-all duration-150 cursor-default"
                     >
                       {tag}
                     </span>

@@ -169,7 +169,7 @@ export default function Experience() {
     <section id="experience" className="bg-neutral-50 dark:bg-neutral-900/40">
       <div className="sticky top-14 z-10 bg-neutral-50/95 dark:bg-neutral-950/95 backdrop-blur-sm px-6">
         <div className="max-w-5xl mx-auto py-3">
-          <h2 className="text-sm font-mono text-blue-500 dark:text-blue-400 uppercase tracking-widest">
+          <h2 className="text-sm font-mono text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">
             03. Experience
           </h2>
         </div>

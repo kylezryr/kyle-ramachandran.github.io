@@ -96,7 +96,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col justify-center px-6 pt-14">
       <div className="max-w-5xl mx-auto w-full">
-        <p className="text-sm font-mono text-blue-500 dark:text-blue-400 mb-4">
+        <p className="text-sm font-mono text-neutral-500 dark:text-neutral-400 mb-4">
           Hi, I&apos;m
         </p>
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-neutral-900 dark:text-white mb-4">
@@ -116,7 +116,7 @@ export default function Hero() {
             href="https://metafore.ai"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 dark:text-blue-400 font-medium underline underline-offset-4 hover:opacity-70 transition-opacity"
+            className="text-neutral-900 dark:text-white font-medium underline underline-offset-4 hover:opacity-70 transition-opacity"
           >
             Metafore
           </a>
@@ -125,7 +125,7 @@ export default function Hero() {
             href="https://www.gaiv.my/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 dark:text-blue-400 font-medium underline underline-offset-4 hover:opacity-70 transition-opacity"
+            className="text-neutral-900 dark:text-white font-medium underline underline-offset-4 hover:opacity-70 transition-opacity"
           >
             Global AI Village
           </a>{" "}
@@ -134,7 +134,7 @@ export default function Hero() {
             href="https://www.supa.so/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 dark:text-blue-400 font-medium underline underline-offset-4 hover:opacity-70 transition-opacity"
+            className="text-neutral-900 dark:text-white font-medium underline underline-offset-4 hover:opacity-70 transition-opacity"
           >
             SUPA
           </a>
@@ -143,7 +143,7 @@ export default function Hero() {
         <div className="flex flex-wrap gap-4">
           <a
             href="#projects"
-            className="px-5 py-2.5 rounded-md bg-blue-600 dark:bg-blue-500 text-white font-medium text-sm hover:opacity-80 transition-opacity"
+            className="px-5 py-2.5 rounded-md bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 font-medium text-sm hover:opacity-80 transition-opacity"
           >
             View my work
           </a>

@@ -87,7 +87,7 @@ export default function About() {
     <section id="about">
       <div className="sticky top-14 z-10 bg-white/95 dark:bg-neutral-950/95 backdrop-blur-sm px-6">
         <div className="max-w-5xl mx-auto py-3">
-          <h2 className="text-sm font-mono text-blue-500 dark:text-blue-400 uppercase tracking-widest">
+          <h2 className="text-sm font-mono text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">
             01. About
           </h2>
         </div>
@@ -110,7 +110,7 @@ export default function About() {
                   href="https://calblueprint.org"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 dark:text-blue-400 font-medium underline underline-offset-4 hover:opacity-70 transition-opacity"
+                  className="text-neutral-900 dark:text-white font-medium underline underline-offset-4 hover:opacity-70 transition-opacity"
                 >
                   Blueprint
                 </a>
