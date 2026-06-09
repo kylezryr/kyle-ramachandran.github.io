@@ -9,7 +9,7 @@ const photos = [
   { src: "/photo2.jpg", alt: "Photo 2" },
   { src: "/photo3.jpg", alt: "Photo 3" },
   { src: "/photo4.jpg", alt: "Photo 4" },
-  { src: "/photo5.jpg", alt: "Photo 5" },
+  { src: "/photo5.JPG", alt: "Photo 5" },
 ];
 
 function PhotoCarousel() {
