@@ -30,7 +30,7 @@ function PhotoCarousel() {
   };
 
   return (
-    <div className="hidden sm:flex flex-col items-center gap-3 shrink-0 w-2/5">
+    <div className="flex flex-col items-center gap-3 shrink-0 w-full sm:w-2/5">
       <div
         className="relative w-full aspect-square rounded-xl overflow-hidden border-2 border-neutral-200 dark:border-neutral-700 select-none cursor-grab active:cursor-grabbing"
         onTouchStart={onTouchStart}
@@ -42,7 +42,7 @@ function PhotoCarousel() {
           alt={photos[index].alt}
           fill
           className="object-cover transition-opacity duration-300"
-          sizes="(min-width: 640px) 40vw, 0px"
+          sizes="(min-width: 640px) 40vw, 100vw"
           priority={index === 0}
         />
         <button
