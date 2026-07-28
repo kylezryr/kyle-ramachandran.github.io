@@ -49,13 +49,13 @@ export default function Interests() {
       <div className="sticky top-14 z-10 bg-white/95 dark:bg-neutral-950/95 backdrop-blur-sm px-6">
         <div className="max-w-5xl mx-auto py-3">
           <h2 className="text-sm font-mono text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">
-            06. Beyond the code
+            06. Interests
           </h2>
         </div>
       </div>
       <div className="max-w-5xl mx-auto px-6 pt-10 pb-24">
         <h3 className="text-3xl font-bold text-neutral-900 dark:text-white mb-4">
-          A bit about me
+          What I do outside of work
         </h3>
         <p className="text-neutral-600 dark:text-neutral-400 max-w-xl mb-10 leading-relaxed">
           When I&apos;m not building software, you&apos;ll find me on a

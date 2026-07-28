@@ -1,7 +1,7 @@
 const skillGroups = [
   {
     label: "Languages",
-    skills: ["TypeScript", "JavaScript", "Python", "Java", "C", "Rust", "Golang", "HTML/CSS", "SQL"],
+    skills: ["Python", "TypeScript", "JavaScript", "Java", "C", "Rust", "Golang", "SQL"],
   },
   {
     label: "Frameworks",

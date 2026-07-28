@@ -19,11 +19,12 @@ const workExperiences: CompanyEntry[] = [
     roles: [
       {
         title: "Artificial Intelligence Intern",
-        period: "May 2026 – Present",
+        period: "May 2026 – July 2026",
         bullets: [
-          "Designed and executed test cases for enterprise AI workflows, evaluating agent outputs across accuracy, grounding, and UX.",
-          "Identified and documented agent failure modes, producing reproducible QA reports to triage and prioritize fixes.",
-          "Researched agentic frameworks and evaluation methodologies to inform product improvements for enterprise AI deployments.",
+          "Built a supply-chain disruption-recovery agent demo, specifying a 14-entity data model and implementing 4 integration workflows.",
+          "Developed a React-based AI operations center for a 2,600-ATM banking fleet, designing 13 panels and 5 incident-response scenarios.",
+          "Authored a voice-agent test suite and evaluated a 23-turn unscripted call, uncovering accuracy, grounding, and UX failures.",
+          "Documented reproducible agent failure modes and platform defects, producing QA reports used to triage and prioritize fixes.",
         ],
       },
     ],
@@ -37,9 +38,9 @@ const workExperiences: CompanyEntry[] = [
         title: "Part-Time Software Engineer",
         period: "Jan 2026 – May 2026",
         bullets: [
-          "Extended production AI agriculture tools by building modular frontend and backend components across development environments.",
-          "Improved deployment reliability by standardizing component structure and maintaining consistent build pipelines.",
-          "Shaped architecture for AI-assisted workflows, including integration patterns for LLM APIs, MQTT event handling, and user data.",
+          "Extended production AI-powered agricultural tools with modular frontend and backend components across development environments.",
+          "Standardized component structure and build configuration across environments, reducing inconsistencies and simplifying maintenance.",
+          "Designed integration patterns for LLM APIs, MQTT events, and user data across AI-assisted chatbot and admin workflows.",
         ],
       },
       {
@@ -80,22 +81,28 @@ const leadershipExperiences: CompanyEntry[] = [
     roles: [
       {
         title: "President",
-        period: "Dec 2025 – Present",
+        period: "Dec 2025 – June 2026",
         bullets: [
-          "Lead strategy and operations for a 45+ member organization, overseeing planning, budgeting, and exec board alignment.",
+          "Led strategy, budgeting, and operations for a 45+ member organization, including a recruitment process spanning ~200 applicants.",
           "Launched Blueprint's chapter expansion to McMaster University, growing the organization's presence across North America.",
           "Secured sponsorship partnerships and organized a fireside chat with engineers from Ramp, strengthening alumni and industry ties.",
-          "Directed semesterly recruitment cycles reviewing ~200 applications, managing interviews to ensure balanced, fair selection.",
         ],
       },
       {
-        title: "VP of Technology / Project Lead",
-        period: "Jan 2025 – Dec 2025",
+        title: "VP of Technology",
+        period: "May 2025 – Dec 2025",
         bullets: [
-          "Rebuilt club website with Next.js and Tailwind, replacing legacy HTML/CSS/Ruby, improving maintainability and developer speed.",
-          "Led 4–5 developers and 1 designer to deliver full-stack web apps through roadmaps, weekly sprints, demos, and client feedback.",
+          "Rebuilt the club website with Next.js and Tailwind, replacing legacy HTML/CSS/Ruby code, simplifying future development.",
+          "Advised project teams and mentored 8 new developers via implementation planning, technical coaching, and GitHub PR feedback.",
           "Sourced 5 nonprofit clients by conducting stakeholder interviews and designing rubrics for project scope, feasibility, and impact.",
-          "Mentored 8 new developers through onboarding, technical coaching, and code reviews.",
+        ],
+      },
+      {
+        title: "Project Lead",
+        period: "Jan 2025 – May 2025",
+        bullets: [
+          "Led 4-5 developers and 1 designer to deliver a full-stack web app through roadmaps, weekly sprints, demos, and client feedback.",
+          "Served as the primary client liaison, conducting user interviews, demos, and code reviews to refine product needs and user flows.",
         ],
       },
     ],

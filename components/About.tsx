@@ -100,7 +100,7 @@ export default function About() {
           <div className="flex flex-col sm:flex-row gap-10 items-center">
             <div className="space-y-4 text-neutral-600 dark:text-neutral-400 leading-relaxed flex-1">
               <p>
-                I was born and raised in Kuala Lumpur, Malaysia, and I&apos;m a rising fourth-year EECS student at UC Berkeley,
+                I was born and raised in Kuala Lumpur, Malaysia, and I&apos;m a fourth-year EECS student at UC Berkeley,
                 building impactful software that ships to real users. My work sits at the
                 intersection of full-stack engineering and AI, and I&apos;m always looking to learn more.
               </p>

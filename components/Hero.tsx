@@ -111,7 +111,7 @@ export default function Hero() {
         </h2>
         <p className="max-w-xl text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed mb-10">
           I&apos;m a UC Berkeley EECS student (graduating 2027) specializing in
-          full-stack engineering and AI applications. Currently interning at{" "}
+          full-stack engineering and AI applications. Just wrapped up an internship at{" "}
           <a
             href="https://metafore.ai"
             target="_blank"
