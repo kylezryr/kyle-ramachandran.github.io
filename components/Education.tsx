@@ -46,6 +46,7 @@ const courseGroups = [
       "MELC C26 - Introduction to Central Asia",
       "PBHLTH 116 - Seminar on Social, Political, and Ethical Issues in Health and Medicine",
       "SEASIAN R5A - Self, Representation, and Nation",
+      "UGBA 135 - Personal Finance Management"
     ],
   },
 ];
@@ -58,7 +59,7 @@ export default function Education() {
       <div className="sticky top-14 z-10 bg-neutral-50/95 dark:bg-neutral-950/95 backdrop-blur-sm px-6">
         <div className="max-w-5xl mx-auto py-3">
           <h2 className="text-sm font-mono text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">
-            02. Education
+            Education
           </h2>
         </div>
       </div>
